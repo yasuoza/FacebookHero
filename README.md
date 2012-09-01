@@ -19,3 +19,7 @@ Set your email and password in facebook.feature
 ````shell
 $ bundle exec cucumber
 ````
+
+## HERO never tells a lie
+
+You can see screenshots in screenshots directory.
