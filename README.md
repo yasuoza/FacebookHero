@@ -6,7 +6,7 @@ Do you want to be a hero?
 Clone FacebookHero
 
 ````shell
-$ git clone git@yasuoza.com:FacebookHero.git
+$ git clone https://github.com/YasuOza/FacebookHero.git
 $ cd FacebookHero
 $ mkdir screenshots
 $ bundle install
