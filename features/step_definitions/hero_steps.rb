@@ -43,12 +43,10 @@ Then 'Find friends waiting for HERO' do
 end
 
 Then 'Be a hero!' do
-  @browser.buttons(:class => 'like_link').each do |button|
-    if button.name.match(/^like/)
-      begin
-        button.click if rand(10) < 8
-      rescue
-      end
+  @browser.links(:class => 'UFILikeLink').each do |link|
+    begin
+      link.click if rand(10) < 8
+    rescue
     end
   end
 end
